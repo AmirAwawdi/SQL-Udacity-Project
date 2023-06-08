@@ -1,8 +1,8 @@
-# SQL-Udacity-Project
-Deforestation Exploration - Udacity project;  Data analysis report with SQL.
+#  Deforestation Exploration
+Udacity SQL project - Data analysis report.
 
 
-### Project Overveiw
+## Project Overveiw
 
 ForestQuery, a non-profit organization, on a mission to reduce deforestation around the world by raising awareness about this important critical environmental issue.
 
@@ -10,28 +10,38 @@ The executive director and her leadership team members are intrested in understa
 
 This map visually represents the net change in forest cover worldwide. Green indicates countries experiencing positive changes, regrowing forests faster than they are losing them, while red represents countries with negative changes, losing more forest than they are able to restore.
 
-<div style="text-align: center;">
-  <img src="https://github.com/AmirAwawdi/SQL-Udacity-Project/blob/main/ProjectOverView.png?raw=true" alt="alt text" style="width: 900px;">
-</div>
+<p align="center">
+  <img src="https://github.com/AmirAwawdi/SQL-Udacity-Project/blob/main/ProjectOverView.png?raw=true" alt="alt text" width="800">
+</p>
 
 [Click here to view the source](https://ourworldindata.org/grapher/annual-change-forest-area)
 
 
-### Project Instructions
+## Project Instructions
 
-As a data analyst, you're utilizing updated tables of online data dealing with forestation as well as total land area and region groupings, which you’ve brought together into a database described by the following ERD:
+As a data analyst, I'm utilizing updated tables of online data dealing with forestation as well as total land area and region groupings, which I have brought together into a database described by the following ERD:
 
-![alt text](https://github.com/AmirAwawdi/SQL-Udacity-Project/blob/main/DB%20ERD.png?raw=true)
+<p align="center">
+  <img src="https://github.com/AmirAwawdi/SQL-Udacity-Project/blob/main/DB%20ERD.png?raw=true" alt="alt text" width="800">
+</p>
 
-that you’d like to query to answer some of the most important questions in preparation for a meeting with the ForestQuery executive team coming up in a few days. Ahead of the meeting, you’d like to prepare and disseminate a report for the leadership team that uses complete sentences to help them understand the global deforestation overview between 1990 and 2016.
+I'm querying it to address the key questions posed by the ForestQuery executive team by providing valuable insights and observations on global deforestation trends from 1990 to 2016. The project outcome is a comprehensive report that summarizes the findings and helps the leadership team understand the global deforestation situation.
 
-You will be creating a report for the executive team in which you explain your results using complete sentences.
+### Report Sections:
 
-Report Sections
-The report has five sections that you will need to complete:
+#### 1. Global Situation: 
+This section provides an overview of the global deforestation scenario during the specified period. It highlights key statistics, trends, and patterns observed on a global scale.
 
-Global Situation
-Regional Outlook
-Country-Level Detail
-Recommendations
-Appendix: SQL queries used
+#### 2. Regional Outlook: 
+In this section, we delve into the regional perspective of deforestation. It analyzes deforestation trends and patterns across different regions, identifying areas of concern and highlighting regions with significant changes in forest cover.
+
+#### 3. Drill down on Country-Level Details: 
+Here, we zoom in further to examine deforestation at the country level. This section provides detailed insights into specific countries, including their respective deforestation rates, major drivers, and notable observations.
+
+#### 4. Analytical Recommendations: 
+This section offers analytical recommendations based on the insights gained from the data analysis. It presents suggestions and strategies for mitigating deforestation, preserving forest ecosystems, and promoting sustainable practices.
+
+#### 5. Appendix: 
+SQL Queries Used: The appendix section includes a collection of SQL queries used throughout the project. This transparency allows readers to replicate the analysis and explore the data further.
+
+By synthesizing the information collected and applying analytical techniques, this report aims to equip the ForestQuery leadership team with a comprehensive understanding of the global deforestation overview. The insights provided can aid in informed decision-making and the formulation of effective strategies to address deforestation challenges.
