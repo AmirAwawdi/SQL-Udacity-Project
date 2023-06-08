@@ -1,30 +1,37 @@
-/* 1. Create a View called “forestation” by joining all three tables - forest_area, land_area and regions in the workspace. */
-/* 2. The forest_area and land_area tables join on both country_code AND year.*/
-/* 3. The regions table joins these based on only country_code.*/
-/* 4. In the ‘forestation’ View, include the following:
-     * All of the columns of the origin tables
-     * A new column that provides the percent of the land area that is designated as forest. */
-/* 5. Keep in mind that the column forest_area_sqkm in the forest_area table and the land_area_sqmi in
-the land_area table are in different units (square kilometers and square miles, respectively),
-so an adjustment will need to be made in the calculation you write (1 sq mi = 2.59 sq km).*/
-
+/* Create a View called “forestation” by joining all three tables - forest_area, land_area and regions. */
 DROP VIEW IF EXISTS forestation;
 CREATE OR REPLACE VIEW forestation AS
+
+/* In the ‘forestation’ View, include the following: 
+1. All of the columns of the origin tables 
+2. A new column that provides the percent of the land area that is designated as forest. */
+
+/* The column forest_area_sqkm in the forest_area table and the land_area_sqmi in
+the land_area table are in different units (square kilometers and square miles, respectively),
+so an adjustment is done using this conversion ratio  (1 sq mi = 2.59 sq km).*/
+
 SELECT fa.*,
 la.total_area_sq_mi*2.59 AS total_area_sqkm,
 r.region,
 r.income_group,
 ROUND(((fa.forest_area_sqkm/(la.total_area_sq_mi*2.59))*100)::numeric,2)
 AS forest_area_percent
+
+/* The forest_area and land_area tables join on both country_code AND year.*/
+
 FROM forest_area fa
 JOIN land_area la
 ON fa.country_code = la.country_code AND fa.year = la.year
+
+/* The regions table joins these based on only country_code.*/
+
 JOIN regions r
 ON fa.country_code = r.country_code
 AND  fa.forest_area_sqkm IS NOT NULL
 AND la.total_area_sq_mi IS NOT NULL;
 
-/*To observe the table*/
+/* To observe the View created above */
+
 SELECT *
 FROM forestation;
 
