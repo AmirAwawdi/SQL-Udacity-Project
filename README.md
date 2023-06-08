@@ -51,7 +51,7 @@ By synthesizing the information collected and applying analytical techniques, th
 ## Attached Files
 
 #### 1. PDF file titled " Deforestation_Exploration_Project_ByAmirAwawdi "
-This the project outcome, a comprehensive report that summarizes the findings provide assitance to the executive team.
+This is the project outcome, a comprehensive report that summarizes the findings provide assitance to the executive team.
 
 #### 1. SQL script "DeforestationSQLscript_ByAmirAwawdi "
 This file includes detailed explanation of the collection of SQL queries used throughout the project.
