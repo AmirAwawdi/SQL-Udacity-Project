@@ -10,9 +10,11 @@ The executive director and her leadership team members are intrested in understa
 
 This map visually represents the net change in forest cover worldwide. Green indicates countries experiencing positive changes, regrowing forests faster than they are losing them, while red represents countries with negative changes, losing more forest than they are able to restore.
 
-![alt text](https://github.com/AmirAwawdi/SQL-Udacity-Project/blob/main/ProjectOverView.png?raw=true)
+<div style="text-align: center;">
+  <img src="https://github.com/AmirAwawdi/SQL-Udacity-Project/blob/main/ProjectOverView.png?raw=true" alt="alt text" style="width: 900px;">
+</div>
 
-[Source: https://ourworldindata.org/deforestation]
+[Click here to view the source](https://ourworldindata.org/grapher/annual-change-forest-area)
 
 
 ### Project Instructions
