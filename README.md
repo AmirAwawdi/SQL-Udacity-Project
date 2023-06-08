@@ -19,13 +19,14 @@ This map visually represents the net change in forest cover worldwide. Green ind
 
 ## Project Instructions
 
-As a data analyst, I'm utilizing updated tables of online data dealing with forestation as well as total land area and region groupings, which I have brought together into a database described by the following ERD:
+As a data analyst in ForestQuery data department I have gathered and consolidated updated datasets on forestation, total land area, and region groupings. These datasets have been organized into a well-structured database, represented by the following Entity-Relationship Diagram (ERD):
 
 <p align="center">
   <img src="https://github.com/AmirAwawdi/SQL-Udacity-Project/blob/main/DB%20ERD.png?raw=true" alt="alt text" width="800">
 </p>
 
-I'm querying it to address the key questions posed by the ForestQuery executive team by providing valuable insights and observations on global deforestation trends from 1990 to 2016. The project outcome is a comprehensive report that summarizes the findings and helps the leadership team understand the global deforestation situation.
+The ERD outlines the relationships between the various tables within the database, allowing for efficient retrieval and analysis of relevant information. 
+I'm querying this comprehensive database to address the key questions posed by the ForestQuery executive team by providing valuable insights and observations on global deforestation trends from 1990 to 2016. The project outcome is a comprehensive report that summarizes the findings and helps the leadership team understand the global deforestation situation.
 
 ### Report Sections:
 
@@ -42,6 +43,15 @@ Here, we zoom in further to examine deforestation at the country level. This sec
 This section offers analytical recommendations based on the insights gained from the data analysis. It presents suggestions and strategies for mitigating deforestation, preserving forest ecosystems, and promoting sustainable practices.
 
 #### 5. Appendix: 
-SQL Queries Used: The appendix section includes a collection of SQL queries used throughout the project. This transparency allows readers to replicate the analysis and explore the data further.
+SQL Queries Used: The appendix section includes a collection of SQL queries used throughout the project. This transparency enables other data analytics within ForestQuery data department to replicate the analysis and explore the data further.
 
 By synthesizing the information collected and applying analytical techniques, this report aims to equip the ForestQuery leadership team with a comprehensive understanding of the global deforestation overview. The insights provided can aid in informed decision-making and the formulation of effective strategies to address deforestation challenges.
+
+
+## Attached Files
+
+#### 1. PDF file titled " Deforestation_Exploration_Project_ByAmirAwawdi "
+This the project outcome, a comprehensive report that summarizes the findings provide assitance to the executive team.
+
+#### 1. SQL script "DeforestationSQLscript_ByAmirAwawdi "
+This file includes detailed explanation of the collection of SQL queries used throughout the project.
