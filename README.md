@@ -1,5 +1,5 @@
 #  Deforestation Exploration
-Udacity SQL project - Data analysis report.
+Udacity SQL project - Data Analytics.
 
 
 ## Project Overveiw
