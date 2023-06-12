@@ -56,6 +56,6 @@ This is the project outcome, a comprehensive report that summarizes the findings
 #### 2. SQL script "DeforestationSQLscript_ByAmirAwawdi "
 This file includes detailed explanation of the collection of SQL queries used throughout the project.
 
-#### 3. SQL script "DeforestationSQLscript_ByAmirAwawdi "
-This file includes detailed formal review and feedback from Udacity reviewer.
+#### 3. "Udacity_Review&Feedback"
+This file includes detailed formal review and feedback from an Udacity reviewer.
 
